@@ -1,4 +1,16 @@
+#!/usr/bin/python3
+"""
+This script queries the Reddit API and prints the titles of the first 10 hot posts listed for a given subreddit.
+
+Usage:
+Call the `top_ten` function with a subreddit name as a parameter.
+
+Example:
+top_ten('programming')
+"""
+
 import requests
+
 
 def top_ten(subreddit):
     """Print the top 10 hot posts from a subreddit."""
